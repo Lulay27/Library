@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Home</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#"> Swaggers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
+
+    <main>
+            <button id="addBook" class="new-book" onclick="addBookBtn()">New Book</button>
+        
+        <div id="formBlock" class="formBlock">
+            <form class="form" action="">
+                <label for="titleB">Title:</label><br>
+                <input type="text" id="titleB" name="titleB"><br>
+
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author"><br>
+
+                <label for="pages">Pages:</label><br>
+                <input type="number" id="pages" name="pages"><br>
+
+                <label for="Read">Read</label>
+                <input type="radio" value="Read" id="radiobtn" name="radiobtn">
+
+                <label for="Unread">Unread</label>
+                <input type="radio" value="Unread" id="radiobtn" name="radiobtn" checked="checked"><br>
+
+                <button id="Add">Add</button>
+                <input type="reset">
+            </form> 
+        </div>
+    </main>
+
+    <footer id="poop">
+        
+        
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
