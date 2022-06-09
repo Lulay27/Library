@@ -63,7 +63,7 @@ button:hover, input[type=submit] {
                                 /* main new book button to add books */
 
 main {
-    height: 400px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
